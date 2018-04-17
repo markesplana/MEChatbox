@@ -1,0 +1,25 @@
+{
+  "name": "graphql-chat",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Mark Esplana",
+  "devDependencies": {
+    "antd": "^3.3.3",
+    "react-scripts": "^1.0.14"
+  },
+  "dependencies": {
+    "localStorage": "^1.0.3",
+    "react": "^16.0.0",
+    "react-apollo": "^1.4.16",
+    "react-dom": "^16.0.0",
+    "sillyname": "^0.1.0",
+    "subscriptions-transport-ws": "0.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "update-ux": "sudo rsync -avzhe ssh build/* uxserver@ux.vibalgroup.com:/var/www/ChatBox",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
